@@ -1,0 +1,12 @@
+[13:19:04] [ServerMain/INFO]: Building unoptimized datafixer
+[13:19:05] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:19:05] [ServerMain/ERROR]: Failed to start the minecraft server
+net.minecraft.util.SessionLock$ExceptionWorldConflict: /workspaces/sarvesh8456/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at net.minecraft.util.DirectoryLock$LockException.alreadyLocked(DirectoryLock.java:136) ~[?:?]
+	at net.minecraft.util.DirectoryLock.create(DirectoryLock.java:33) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:398) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource.createAccess(LevelStorageSource.java:323) ~[?:?]
+	at net.minecraft.server.Main.main(Main.java:156) ~[paper-1.19.jar:git-Paper-81]
+	at org.bukkit.craftbukkit.Main.main(Main.java:294) ~[paper-1.19.jar:git-Paper-81]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]

@@ -1,0 +1,20 @@
+mode: ACCUMULATE
+expand: 'false'
+world: world
+centerZ: '0'
+centerX: '0'
+biomeLocations:
+  SNOWY_SLOPES: {82544: 1}
+  SAVANNA: {80881: 1, 97616: 1}
+  JUNGLE: {109677: 1, 189459: 1}
+  BAMBOO_JUNGLE: {104649: 1}
+  PLAINS: {154304: 1}
+  SNOWY_PLAINS: {146568: 1}
+  FOREST: {38645: 1, 170525: 1}
+badLocations: {13431: 1, 15626: 1, 36848: 1, 52835: 1, 54820: 1, 104689: 1, 133103: 1,
+  145702: 1, 159782: 1, 164129: 1}
+centerRadius: '64'
+weight: '1.0'
+radius: '256'
+fillIter: 0
+uniquePlacements: 'false'

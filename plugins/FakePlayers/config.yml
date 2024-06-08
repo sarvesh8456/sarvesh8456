@@ -1,0 +1,28 @@
+FakePlayers:
+  OnlinePlayers: 10
+  BalancePlayerCount: false
+  defaultWorld: world
+  ProtocolLib: false
+  Gamemode: CREATIVE
+  AdvancedFakedPlayers (Wiki Recommended):
+    Enabled: false
+    ReUseUUIDs: false
+    Skins: true
+    Names:
+    - Notch
+    - Intel_7
+    - RafiMC
+    - ArchitectHyper
+    - GiiMiner
+    - Meralline
+    - BauPixelDev
+    - AqMin
+    - stabwounds
+    - DinoTopse
+    - CasinoBandit
+    - TripleTowers
+    - Enkler
+    - Verger
+    - Rowin
+    - 12skitzo
+    - _EnjoyMyPvP_
